@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity\\Appeals.Identity.csproj": {}
+    "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity.csproj": {}
   },
   "projects": {
-    "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity\\Appeals.Identity.csproj": {
+    "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity\\Appeals.Identity.csproj",
+        "projectUniqueName": "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity.csproj",
         "projectName": "Appeals.Identity",
-        "projectPath": "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity\\Appeals.Identity.csproj",
+        "projectPath": "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity.csproj",
         "packagesPath": "C:\\Users\\thegw\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\Appeals.Identity\\obj\\",
+        "outputPath": "C:\\projects\\pet\\CleanArchitecture\\Appeals.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,38 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "IdentityServer4.EntityFramework": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
